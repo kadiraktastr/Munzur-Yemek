@@ -15,6 +15,17 @@
 		B20D75832396E65000572019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20D75812396E65000572019 /* LaunchScreen.storyboard */; };
 		B20D758E2396E65000572019 /* munzueYemekListesiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D758D2396E65000572019 /* munzueYemekListesiTests.swift */; };
 		B20D75992396E65000572019 /* munzueYemekListesiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D75982396E65000572019 /* munzueYemekListesiUITests.swift */; };
+		B20D75A72396E89B00572019 /* tarihlerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D75A62396E89B00572019 /* tarihlerTableViewCell.swift */; };
+		B20D75A92396EC6600572019 /* yemekDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D75A82396EC6600572019 /* yemekDetayVC.swift */; };
+		B20D75AD2396EDB900572019 /* yemekListesi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D75AC2396EDB900572019 /* yemekListesi.swift */; };
+		B20D75D52396FA4E00572019 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B20D75CA2396FA4E00572019 /* FMDatabasePool.m */; };
+		B20D75D62396FA4E00572019 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B20D75CB2396FA4E00572019 /* FMDatabaseAdditions.m */; };
+		B20D75D72396FA4E00572019 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B20D75CE2396FA4E00572019 /* FMDatabase.m */; };
+		B20D75D82396FA4E00572019 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B20D75D02396FA4E00572019 /* FMDatabaseQueue.m */; };
+		B20D75D92396FA4E00572019 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B20D75D22396FA4E00572019 /* FMResultSet.m */; };
+		B20D75DC2396FB6100572019 /* yemekListesi.db in Resources */ = {isa = PBXBuildFile; fileRef = B20D75DB2396FB6100572019 /* yemekListesi.db */; };
+		B20D75DF2396FBA400572019 /* yemekListesidao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D75DE2396FBA400572019 /* yemekListesidao.swift */; };
+		B20D75E02396FCE600572019 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B20D75AF2396F58900572019 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B20D75732396E65000572019 /* munzueYemekListesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = munzueYemekListesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20D75732396E65000572019 /* Munzur Yemek Listesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Munzur Yemek Listesi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20D75762396E65000572019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B20D75782396E65000572019 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B20D757A2396E65000572019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,24 @@
 		B20D75942396E65000572019 /* munzueYemekListesiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = munzueYemekListesiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20D75982396E65000572019 /* munzueYemekListesiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = munzueYemekListesiUITests.swift; sourceTree = "<group>"; };
 		B20D759A2396E65000572019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20D75A62396E89B00572019 /* tarihlerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarihlerTableViewCell.swift; sourceTree = "<group>"; };
+		B20D75A82396EC6600572019 /* yemekDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yemekDetayVC.swift; sourceTree = "<group>"; };
+		B20D75AC2396EDB900572019 /* yemekListesi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yemekListesi.swift; sourceTree = "<group>"; };
+		B20D75AF2396F58900572019 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B20D75CA2396FA4E00572019 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B20D75CB2396FA4E00572019 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B20D75CC2396FA4E00572019 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B20D75CD2396FA4E00572019 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B20D75CE2396FA4E00572019 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B20D75CF2396FA4E00572019 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B20D75D02396FA4E00572019 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B20D75D12396FA4E00572019 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B20D75D22396FA4E00572019 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B20D75D32396FA4E00572019 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B20D75D42396FA4E00572019 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B20D75DA2396FA7C00572019 /* munzueYemekListesi-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "munzueYemekListesi-Bridging-Header.h"; sourceTree = "<group>"; };
+		B20D75DB2396FB6100572019 /* yemekListesi.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = yemekListesi.db; sourceTree = "<group>"; };
+		B20D75DE2396FBA400572019 /* yemekListesidao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yemekListesidao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20D75E02396FCE600572019 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,13 +113,14 @@
 				B20D758C2396E65000572019 /* munzueYemekListesiTests */,
 				B20D75972396E65000572019 /* munzueYemekListesiUITests */,
 				B20D75742396E65000572019 /* Products */,
+				B20D75AE2396F58900572019 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B20D75742396E65000572019 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B20D75732396E65000572019 /* munzueYemekListesi.app */,
+				B20D75732396E65000572019 /* Munzur Yemek Listesi.app */,
 				B20D75892396E65000572019 /* munzueYemekListesiTests.xctest */,
 				B20D75942396E65000572019 /* munzueYemekListesiUITests.xctest */,
 			);
@@ -102,10 +133,27 @@
 				B20D75762396E65000572019 /* AppDelegate.swift */,
 				B20D75782396E65000572019 /* SceneDelegate.swift */,
 				B20D757A2396E65000572019 /* ViewController.swift */,
+				B20D75A82396EC6600572019 /* yemekDetayVC.swift */,
+				B20D75A62396E89B00572019 /* tarihlerTableViewCell.swift */,
+				B20D75AC2396EDB900572019 /* yemekListesi.swift */,
 				B20D757C2396E65000572019 /* Main.storyboard */,
 				B20D757F2396E65000572019 /* Assets.xcassets */,
 				B20D75812396E65000572019 /* LaunchScreen.storyboard */,
 				B20D75842396E65000572019 /* Info.plist */,
+				B20D75DB2396FB6100572019 /* yemekListesi.db */,
+				B20D75CF2396FA4E00572019 /* FMDatabase.h */,
+				B20D75CE2396FA4E00572019 /* FMDatabase.m */,
+				B20D75CC2396FA4E00572019 /* FMDatabaseAdditions.h */,
+				B20D75CB2396FA4E00572019 /* FMDatabaseAdditions.m */,
+				B20D75CD2396FA4E00572019 /* FMDatabasePool.h */,
+				B20D75CA2396FA4E00572019 /* FMDatabasePool.m */,
+				B20D75D32396FA4E00572019 /* FMDatabaseQueue.h */,
+				B20D75D02396FA4E00572019 /* FMDatabaseQueue.m */,
+				B20D75D12396FA4E00572019 /* FMDB.h */,
+				B20D75D42396FA4E00572019 /* FMResultSet.h */,
+				B20D75DA2396FA7C00572019 /* munzueYemekListesi-Bridging-Header.h */,
+				B20D75D22396FA4E00572019 /* FMResultSet.m */,
+				B20D75DE2396FBA400572019 /* yemekListesidao.swift */,
 			);
 			path = munzueYemekListesi;
 			sourceTree = "<group>";
@@ -128,6 +176,14 @@
 			path = munzueYemekListesiUITests;
 			sourceTree = "<group>";
 		};
+		B20D75AE2396F58900572019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B20D75AF2396F58900572019 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,7 +201,7 @@
 			);
 			name = munzueYemekListesi;
 			productName = munzueYemekListesi;
-			productReference = B20D75732396E65000572019 /* munzueYemekListesi.app */;
+			productReference = B20D75732396E65000572019 /* Munzur Yemek Listesi.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B20D75882396E65000572019 /* munzueYemekListesiTests */ = {
@@ -196,6 +252,7 @@
 				TargetAttributes = {
 					B20D75722396E65000572019 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					B20D75882396E65000572019 = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -235,6 +292,7 @@
 				B20D75832396E65000572019 /* LaunchScreen.storyboard in Resources */,
 				B20D75802396E65000572019 /* Assets.xcassets in Resources */,
 				B20D757E2396E65000572019 /* Main.storyboard in Resources */,
+				B20D75DC2396FB6100572019 /* yemekListesi.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +317,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20D75A72396E89B00572019 /* tarihlerTableViewCell.swift in Sources */,
 				B20D757B2396E65000572019 /* ViewController.swift in Sources */,
 				B20D75772396E65000572019 /* AppDelegate.swift in Sources */,
+				B20D75D72396FA4E00572019 /* FMDatabase.m in Sources */,
+				B20D75AD2396EDB900572019 /* yemekListesi.swift in Sources */,
+				B20D75D82396FA4E00572019 /* FMDatabaseQueue.m in Sources */,
+				B20D75D52396FA4E00572019 /* FMDatabasePool.m in Sources */,
 				B20D75792396E65000572019 /* SceneDelegate.swift in Sources */,
+				B20D75DF2396FBA400572019 /* yemekListesidao.swift in Sources */,
+				B20D75D92396FA4E00572019 /* FMResultSet.m in Sources */,
+				B20D75A92396EC6600572019 /* yemekDetayVC.swift in Sources */,
+				B20D75D62396FA4E00572019 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,15 +501,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S8QK476L9H;
 				INFOPLIST_FILE = munzueYemekListesi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = info.munzueYemekListesi;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = info.munzurYemekListesi;
+				PRODUCT_NAME = "Munzur Yemek Listesi";
+				SWIFT_OBJC_BRIDGING_HEADER = "munzueYemekListesi/munzueYemekListesi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,15 +524,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S8QK476L9H;
 				INFOPLIST_FILE = munzueYemekListesi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = info.munzueYemekListesi;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = info.munzurYemekListesi;
+				PRODUCT_NAME = "Munzur Yemek Listesi";
+				SWIFT_OBJC_BRIDGING_HEADER = "munzueYemekListesi/munzueYemekListesi-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
