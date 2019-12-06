@@ -10,21 +10,33 @@ import UIKit
 
 class yemekDetayVC: UIViewController {
 
+    //MARK:IBOutlets
+    @IBOutlet weak var yemek1Label: UILabel!
+    
+    @IBOutlet weak var yemek2Label: UILabel!
+    
+    @IBOutlet weak var yemek3Label: UILabel!
+    
+    @IBOutlet weak var yemek4Label: UILabel!
+    
+    var yemek:yemekListesi?
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let y  = yemek {
+            yemek1Label.text = y.yemek_1
+            yemek2Label.text = y.yemek_2
+            yemek3Label.text = y.yemek_3
+            yemek4Label.text = y.yemek_4
+            
+        }
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
